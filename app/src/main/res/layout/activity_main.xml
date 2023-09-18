@@ -41,16 +41,34 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/labelGasolina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginTop="8dp"
+            android:text="Preço da gasolina:"
+            android:textSize="13sp" />
+
         <EditText
             android:id="@+id/edGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
             android:ems="10"
-            android:hint="Preço da gasolina"
+            android:hint="Ex: 5.00"
             android:inputType="numberDecimal"
             android:textColor="#000000"
-            android:textColorHint="#7A7A7A" />
+            android:textColorHint="#B5B5B5" />
+
+        <TextView
+            android:id="@+id/labelAlcool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginTop="8dp"
+            android:text="Preço do alcool:"
+            android:textSize="13sp" />
 
         <EditText
             android:id="@+id/edAlcool"
@@ -58,10 +76,10 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
             android:ems="10"
-            android:hint="Preço do alcool"
+            android:hint="Ex: 3.60"
             android:inputType="numberDecimal"
             android:textColor="#000000"
-            android:textColorHint="#FF7A7A7A" />
+            android:textColorHint="#B5B5B5" />
 
         <Switch
             android:id="@+id/swPercentual"
@@ -85,8 +103,8 @@
             android:id="@+id/textResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:paddingLeft="10dp"
-            android:paddingTop="8dp"
             android:paddingRight="10dp"
             android:text="TextView"
             android:textAlignment="center"
