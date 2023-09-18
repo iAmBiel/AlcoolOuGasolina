@@ -55,21 +55,21 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d("PDM23", "No onResume")
+        Log.d("PDM23", "No onStart")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d("PDM23", "No onResume")
+        Log.d("PDM23", "No onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d("PDM23", "No onResume")
+        Log.d("PDM23", "No onStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d("PDM23", "No onResume")
+        Log.d("PDM23", "No onDestroy")
     }
 }
