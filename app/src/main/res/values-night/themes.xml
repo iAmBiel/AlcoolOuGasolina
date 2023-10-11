@@ -19,5 +19,6 @@
         <item name="android:textColorHint">#FFFFFF</item>
         <item name="android:backgroundTint">@color/secundaria_escuro</item>
         <item name="android:textColor">@color/secundaria_escuro</item>
+        <item name="colorSurface">@color/primaria</item>
     </style>
 </resources>
