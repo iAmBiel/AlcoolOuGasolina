@@ -23,19 +23,19 @@ class MainActivity : AppCompatActivity() {
         val switchPorcentagem: Switch = findViewById(R.id.swPercentual)
 
         // Inicializa o textResultado com um valor padrão
-        textResultado.setText("Digite os valores e clique em CALCULAR")
+        textResultado.setText(getString(R.string.instrucao))
 
         btCalcular.setOnClickListener(View.OnClickListener {
             if (gasolina.text.isNotEmpty() and alcool.text.isNotEmpty()) {
                 var valorGasolina: Double = gasolina.text.toString().toDouble()
                 var valorAlcool: Double = alcool.text.toString().toDouble()
                 if (valorAlcool <= percentual * valorGasolina) {
-                    textResultado.setText("Álcool é a melhor opção!")
+                    textResultado.setText(getString(R.string.resultado_alcool))
                 } else {
-                    textResultado.setText("Gasolina é a melhor opção!")
+                    textResultado.setText(getString(R.string.resultado_gasolina))
                 }
             } else {
-                textResultado.setText("Preencha os campos corretamente!")
+                textResultado.setText(getString(R.string.sem_dados))
             }
         })
 
