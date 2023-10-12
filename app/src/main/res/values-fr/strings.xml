@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alcool ou Essence?</string>
+    <string name="titulo">Alcool ou Essence?</string>
+    <string name="preco_gasolina">Prix de l`essence :</string>
+    <string name="preco_alcool">Prix de l`alcool :</string>
+    <string name="botao_calcular">CALCULER</string>
+    <string name="resultado_alcool">L`alcool est la meilleure option!</string>
+    <string name="resultado_gasolina">L`essence est la meilleure option!</string>
+    <string name="sem_dados">Remplissez correctement les champs!</string>
+    <string name="instrucao">Entrez les valeurs et cliquez sur CALCULER</string>
+</resources>

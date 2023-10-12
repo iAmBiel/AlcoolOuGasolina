@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alcohol o Gasolina?</string>
+    <string name="titulo">Alcohol o Gasolina?</string>
+    <string name="preco_gasolina">Precio de la gasolina:</string>
+    <string name="preco_alcool">Precio del alcohol:</string>
+    <string name="botao_calcular">CALCULAR</string>
+    <string name="resultado_alcool">El alcohol es la mejor opción!</string>
+    <string name="resultado_gasolina">La gasolina es la mejor opción!</string>
+    <string name="sem_dados">Rellena los campos correctamente!</string>
+    <string name="instrucao">Ingrese los valores y haga clic en CALCULAR</string>
+</resources>
