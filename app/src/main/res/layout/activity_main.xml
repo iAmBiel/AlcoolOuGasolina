@@ -57,6 +57,7 @@
 
         <EditText
             android:id="@+id/edGasolina"
+            style="@style/CustomCursorStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
@@ -68,9 +69,9 @@
             android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:textColor="#000000"
-            android:textColorHint="#B5B5B5"
-            style="@style/CustomCursorStyle"/>
+            android:textColorHint="#B5B5B5" />
 
         <TextView
             android:id="@+id/labelAlcool"
@@ -85,6 +86,7 @@
 
         <EditText
             android:id="@+id/edAlcool"
+            style="@style/CustomCursorStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
@@ -96,9 +98,9 @@
             android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:textColor="#000000"
-            android:textColorHint="#B5B5B5"
-            style="@style/CustomCursorStyle"/>
+            android:textColorHint="#B5B5B5" />
 
         <Switch
             android:id="@+id/swPercentual"
