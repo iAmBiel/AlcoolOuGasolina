@@ -4,8 +4,8 @@
     <string name="preco_gasolina">Preço da gasolina:</string>
     <string name="preco_alcool">Preço do alcool:</string>
     <string name="botao_calcular">CALCULAR</string>
-    <string name="resultado_alcool">Álcool é a melhor opção!</string>
-    <string name="resultado_gasolina">Gasolina é a melhor opção!</string>
+    <string name="resultado_alcool">Álcool é melhor!</string>
+    <string name="resultado_gasolina">Gasolina é melhor!</string>
     <string name="sem_dados">Preencha os campos corretamente!</string>
     <string name="instrucao">Digite os valores e clique em CALCULAR</string>
 </resources>

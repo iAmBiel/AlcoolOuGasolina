@@ -1,20 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.AlcoolOuGasolina" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.AlcoolOuGasolina" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/primaria</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/secundaria_escuro</item>
+        <item name="colorPrimaryVariant">@color/secundaria_escuro</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorPrimaryDark">#1F1F1F</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/secundaria</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">@color/secundaria_escuro</item>
+        <item name="colorSecondaryVariant">@color/secundaria_escuro</item>
         <item name="colorOnSecondary">@color/black</item>
 
         <!-- Customize your theme here. -->
         <item name="android:textColorPrimary">@color/black</item>
         <item name="android:textColorHint">@color/black</item>
         <item name="android:backgroundTint">@color/secundaria</item>
-        <item name="android:textColor">@color/primaria_escuro</item>
+        <item name="android:textColor">@color/secundaria_escuro</item>
+    </style>
+    
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomCursorStyle">
+        <item name="android:textCursorDrawable">@drawable/custom_cursor</item>
     </style>
 </resources>
